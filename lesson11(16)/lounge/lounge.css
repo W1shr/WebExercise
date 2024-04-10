@@ -1,7 +1,5 @@
 body{
-    font-size: small;
-    font-family:  Verdana,Helvetica,Arial;
-    line-height: 1.6em;
+    font-size: small/1.6em Verdana,Helvetica,Arial;
 }
 
 h1, h2 {
@@ -16,7 +14,7 @@ h2 {
 	font-size: 1.3em;
 }
 
-.elixirs h2{
+div h2{
   color: black;
 }
 
@@ -24,22 +22,14 @@ h2 {
 color:#d12c47;
 }
 
-  .guarantee{
-  border-color: white;
-  border-width: 1px;
-  border-style: dashed;
-  background-color: #a7cece;
-  padding:25px;
+.guarantee{
+  border: 1px dashed #ffffff;
+  background: #a7cece url(images/background.gif) no-repeat  'top left';
   margin: 30px;
   height: 1.9em;
-  font-style: italic;
+  font: italic Georgia,"Times New Roman";
   color: #444444;
-  font-family: Georgia,"Times New Roman";
-  background-image: url(images/background.gif);
-  background-repeat: no-repeat;
-  background-position: top left;
-  padding: 25px;
-  padding-left: 80px;
+  padding: 25px 25px 25px 80px;
   margin-right: 250px;
 }
 
@@ -58,12 +48,31 @@ font-size: 1vw;
   border-style: solid;
   border-color: #007e7e;
   width: 200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
+  padding-left: 20px 20px 20px 20px;
   margin-left: 20px;
   background-image: url(images/cocktail.gif);
   background-repeat: repeat-x;
   text-align: center;
   line-height: 1;
+}
+
+span{
+width:9999;
+}
+
+a:hover{
+  color: #471fb4;
+}
+
+.elixirs a:link{
+  color:#007e7e;
+}
+
+.elixirs a:visited{
+  color:#1ec447;
+}
+
+.elixirs a:hover{
+  background: #f88396;
+  color:#7e0eaa;
 }
