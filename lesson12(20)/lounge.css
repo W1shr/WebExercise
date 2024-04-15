@@ -1,0 +1,24 @@
+p{
+color: red;
+}
+
+h1,h2{
+font-size: 600;
+color:red;
+}
+
+h1{
+font-size: 200;
+} 
+
+.cname{
+color:blue;
+}
+
+#iname{
+color:green;
+}
+
+#cname{
+color: #7515e2;
+}
