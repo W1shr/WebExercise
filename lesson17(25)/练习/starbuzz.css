@@ -25,6 +25,8 @@ body {
   margin:           0px 10px 10px 10px;
   width:            250px;
   float:            right;
+  display:          table-cell;
+  vertical-align:   top;
 }
 
 .footer {
@@ -73,5 +75,19 @@ a:visited {
   position:     relative;
   top:          0px;
   left:         2px;
+  display:      table-cell;
+  vertical-align: top;
 }
+
+
+div.tableContainer {
+  display: table;
+  border-spacing: 10px;
+}
+
+
+div.talbeRow {
+  display: table-row;
+}
+
 
