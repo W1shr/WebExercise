@@ -83,25 +83,15 @@ div.tableContainer {
 }
 
 .drinks{
-    display: table-cell;
-    background-color: #efe5d0;
-    padding: 15px;
-    }
-
-.sprite-container{
-    width: 260px;
-    height: 100%;
-    overflow: hidden;
-} 
-
-.header-logo{
-    background-image: url('images/header.gif');
-    background-position-x: 0px;
-    background-position-y: 0px;;
+display: table-cell;
+background-color: #efe5d0;
+padding: 15px;
 }
 
-.header-slogan {
-    background-image: url('images/header.gif');
-    background-position: 260px 0px; 
-    float: right;
+.one{
+float: left;
+}
+
+.two{
+float:right;
 }
