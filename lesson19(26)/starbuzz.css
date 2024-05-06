@@ -67,7 +67,7 @@ a:visited {
     border-bottom: thin dotted #675c47;
 }
 
-.all-content {
+.all-content-happy{
     width: 1100px;
     /* height: 200px; */
     /* background-color: aqua; */
@@ -94,4 +94,25 @@ float: left;
 
 .two{
 float:right;
+}  
+
+.award {
+	position:absolute;
+	top: 30px;
+	left: 45%;
+}
+
+.coupon {
+	position: fixed;
+	top: 350px;
+	left: -210px;
+    transition: left 1s ease-out;
+}
+
+.coupon a, img{
+	border: none;
+}
+
+.coupon:hover {
+	left: 0px; 
 }
