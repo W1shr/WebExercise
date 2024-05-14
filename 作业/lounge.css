@@ -31,13 +31,23 @@
   transition: border-color .2s;
 }
 
+h3 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
 .one{
   display: flex;
-  max-width: 100%
 }
 
 .two{
   display: flex;
+  width: 233.500px;
+  height: 400px;
 }
 
 .three{
@@ -57,10 +67,27 @@
 }
 
 .all{
-  list-style: none;
+  margin-top: 3.5rem;
   display: flex;
   flex-wrap: wrap;
-  margin-right: -5rem;
-  margin-left: -5rem;
+  margin-right: -.5rem;
+  margin-left: -.5rem;
   padding: 0;
+  max-width:73rem;
+  margin-right:auto;
+  margin-left:auto;
+  padding-right:1rem;
+  padding-left:1rem;
+  list-style: none;
+}
+
+.one:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0; 
+  z-index: 0;
+  display: block;
+  height: 62%;
+  width: 100%;
 }
