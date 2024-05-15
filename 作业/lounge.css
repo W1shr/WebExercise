@@ -40,13 +40,17 @@ h3 {
   unicode-bidi: isolate;
 }
 
-.one{
+.one img {
   display: flex;
+  width: 487px;
+  height: 400px;  
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
-.two{
+.two img {
   display: flex;
-  width: 233.500px;
+  width: 235.5px;
   height: 400px;
 }
 
@@ -54,16 +58,32 @@ h3 {
   display: flex;
 }
 
-.four{
+.four img {
   display: flex;
+  width: 235.5px;
+  height: 400px;
 }
 
 .five{
   display: flex;
 }
 
-.six{
+.six img {
+  background-image: url('img/DANUSER-151110171741-640x492.jpg');
   display: flex;
+  width: 235.500px;
+  height: 400px;
+  background-position: center;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.img-crop{
+  background-image: url('img/DANUSER-151110171741-640x492.jpg');
+  background-image: url('img/Wellness\ auf\ der\ Rigi-640x427.jpg');
+  background-position: center;
+  overflow: hidden;
+  background-size: cover;
 }
 
 .all{
@@ -90,4 +110,28 @@ h3 {
   display: block;
   height: 62%;
   width: 100%;
+}
+
+.one-wrting{
+  color: white;
+}
+
+.two-wrting{
+  color: white;
+}
+
+.three-wrting{
+  color: black;
+}
+
+.four-wrting{
+  color: white;
+}
+
+.five-wrting{
+  color: black;
+}
+
+.six-wrting{
+  color: white;
 }
