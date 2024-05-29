@@ -317,7 +317,6 @@ img, video {
 }
 audio, canvas, embed, iframe, img, object, svg, video {
     display: block;
-    vertical-align: middle;
 }
 img {
     border-style: solid;
@@ -328,4 +327,19 @@ img {
 embed, iframe, img, object, video {
     max-width: 100%;
     height: auto;
+}
+
+.photo img{
+
+        transition: all 0.5s;
+}
+
+.photo img:hover{
+        transform: scale(1.3);
+}
+
+.photo {
+    list-style: none;
+    display: flex;
+    margin-top: 2.5rem
 }

@@ -45,6 +45,7 @@
     height: 610px;
     max-width: 100%;
     display: flex;
+    margin-top: 70px;
 }
 .first__image img {
     position: absolute;
@@ -85,16 +86,23 @@
     margin-bottom: 0.1rem;
     color: #777;
 }
+.secondfour p {
+    margin-top: 50px;
+}
 .secondsix {
     /* margin-top: .75em; */
     color: #333;
+    margin-top: 20px;
 }
 .second__content {
     margin-top: 30px;
     line-height: 25px;
     font-size: 17px;
-    max-width: 65%;
-    margin-left: 200px;
+    width: 800px;
+    margin-left: -25px;
+}
+.second__content p {
+    max-width: 92%;
 }
 div {
     display: block;
@@ -161,13 +169,13 @@ h2 {
 }
 .arrowleft {
     position: absolute;
-    top: 91%;
-    margin-left: 220px;
+    top:82%;
+    margin-left: 218px;
 }
 .arrowright {
     position: absolute;
-    top: 91%;
-    margin-left: 1320px;
+    top: 82%;
+    margin-left: 1328px;
 }
 .firstsvg {
     left: 10px;
@@ -229,7 +237,7 @@ h2 {
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    padding: 0.06rem;
+    padding: 0.7rem;
     color: #fff;
     background: #007a5a;
     transition: color .2s;
