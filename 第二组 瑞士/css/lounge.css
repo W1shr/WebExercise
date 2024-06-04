@@ -46,6 +46,24 @@
   overflow: hidden; 
 }
 
+.big{
+  width:528px;
+  height:400px;
+  overflow: hidden;
+}
+
+.es{
+  width:270px;
+  height:400px;
+  overflow: hidden;
+}
+
+.small{
+  width: 258px;
+  height:400px;
+  overflow: hidden;
+}
+
 .all .four{
   position: relative; 
   display: block;
@@ -78,7 +96,7 @@
   height: 400px;
   margin-bottom: 16px;
   padding-left: 8px;
-  padding-right: 8px; 
+  padding-right: 2px; 
   overflow: hidden;
 }
 
